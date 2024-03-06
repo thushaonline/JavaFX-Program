@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Navigation.LoginFormController">
+   <children>
+      <Label fx:id="txtUsername" alignment="CENTER" layoutX="83.0" layoutY="85.0" prefHeight="30.0" prefWidth="133.0" style="-fx-background-color: #AED6F1;" text="USERNAME">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="ntrPassword" alignment="CENTER" layoutX="83.0" layoutY="131.0" prefHeight="30.0" prefWidth="133.0" style="-fx-background-color: #AED6F1;" text="PASSWORD">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="156.0" layoutY="237.0" mnemonicParsing="false" onAction="#onActionLogin" prefHeight="35.0" prefWidth="264.0" style="-fx-background-color: #D2B4DE;" text="LOGIN">
+         <font>
+            <Font name="Constantia Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="156.0" layoutY="285.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="264.0" style="-fx-background-color: #D2B4DE;" text="CREATE NEW ACCOUNT">
+         <font>
+            <Font name="Constantia Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="188.0" layoutY="194.0" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #F8F9F9;" text="Invalid Login Try Again ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsernameR" layoutX="263.0" layoutY="85.0" prefHeight="30.0" prefWidth="237.0" promptText="Enter Your Username" />
+      <PasswordField fx:id="ntrPasswordR" layoutX="263.0" layoutY="129.0" prefHeight="30.0" prefWidth="237.0" promptText="Enter Your Password" />
+   </children>
+</AnchorPane>
